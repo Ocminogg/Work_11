@@ -183,6 +183,7 @@ namespace Work11
             #endregion
 
             Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
