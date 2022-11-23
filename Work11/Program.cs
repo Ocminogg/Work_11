@@ -15,10 +15,10 @@ namespace Work11
         /// <summary>
         /// Метод сериализации PhoneBook
         /// </summary>
-        /// <param name="СoncretePhoneBook">Экземпляр для сериализации</param>
+        /// <param name="СoncreteClients">Экземпляр для сериализации</param>
         /// <param name="Path">Путь к файлу</param>
         static void SerializeClients(Clients СoncreteClients, string Path)
-        {
+        {           
             // Создаем сериализатор на основе указанного типа
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Clients));
             XElement myClients = new XElement("Clients");

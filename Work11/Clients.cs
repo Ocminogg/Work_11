@@ -8,10 +8,7 @@ namespace Work11
 {
     public class Clients
     {
-        public Clients()
-        {
-
-        }
+        
         /// <summary>
         /// Создание клиента
         /// </summary>
@@ -29,13 +26,14 @@ namespace Work11
             this.pasport = Pasport;
         }
 
-        private string familiya; // Поле Фамилия
-        private string name;  // Поле Имя
-        private string othestvo; // Поле Отчество
-        private string phone; // Поле Номер телефона
-        private string pasport; // Поле Серия, номер паспорта
+        public string familiya; // Поле Фамилия
+        public string name;  // Поле Имя
+        public string othestvo; // Поле Отчество
+        public string phone; // Поле Номер телефона
+        public string pasport; // Поле Серия, номер паспорта
 
-        
+        public Clients() { }
+
         #region Методы
 
         public string PrintAll()
