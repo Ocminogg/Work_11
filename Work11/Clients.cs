@@ -8,6 +8,10 @@ namespace Work11
 {
     public class Clients
     {
+        public Clients()
+        {
+
+        }
         /// <summary>
         /// Создание клиента
         /// </summary>
